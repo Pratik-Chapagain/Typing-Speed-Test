@@ -1,0 +1,107 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.wrapper:hover {
+    transform: translateY(-10px);
+}
+
+.typing-test {
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #e0f7fa;
+    border-radius: 12px;
+    border: 2px solid #00acc1;
+    font-size: 1.2em;
+    line-height: 1.6;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.typing-test:hover {
+    background-color: #b2ebf2;
+    border-color: #007bff;
+}
+
+.typing-test p span.correct {
+    color: #4caf50;
+}
+
+.typing-test p span.incorrect {
+    color: #f44336;
+}
+
+.typing-test p span.active {
+    text-decoration: underline;
+}
+
+.result-details {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.result-details li {
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1.1em;
+}
+
+.result-details li:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #00acc1;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-size: 1em;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
